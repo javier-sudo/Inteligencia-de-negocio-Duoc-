@@ -140,7 +140,7 @@ insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 71,9,15,
 insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 72,9,15,'Jul/2020',16);
 insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 73,9,23,'Ago/2020',17);
 insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 74,9,15,'Sep/2020',18);
-insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 75,9,22,'Jul/2020'19);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 75,9,22,'Jul/2020',19);
 insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 76,9,23,'Ago/2020',20);
 insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 77,9,15,'Sep/2020',20);
 

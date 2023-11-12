@@ -1,0 +1,69 @@
+
+CREATE TABLE [dbo].[Categoria$](
+	[Categorias ] [nvarchar](255) NULL,
+	[descripcion] [ntext] NULL,
+	[Id] [int] not NULL
+);
+
+alter table Categoria$
+add constraint pk_categoria primary key (Id);
+
+CREATE TABLE [dbo].[Compañias$](
+	[compañía desarrolladora] [nvarchar](255) NULL,
+	[ciudad] [nvarchar](255) NULL,
+	[año ] [float] NULL,
+	[Productos] [nvarchar](255) NULL,
+	[n de video juegos ] [float] NULL,
+	[idComp] [int] not NULL
+);
+
+alter table Compañias$
+add constraint pk_compañia primary key (idComp);
+
+CREATE TABLE [dbo].[JuegosMasVendidos$](
+	[Juego] [nvarchar](255) NULL,
+	[Descripcion] [ntext] NULL,
+	[Año lanzamiento ] [float] NULL,
+	[Empresa ] [nvarchar](255) NULL,
+	[Precio] [float] NULL,
+	[Tienda ] [nvarchar](255) NULL,
+	[id] [int] not NULL,
+	[idCategoria] [int] not NULL,
+	[idDesarrollador] [int] not null
+);
+
+alter table JuegosMasVendidos$
+add constraint pk_juego primary key (id);
+
+CREATE TABLE [dbo].[Ventas$](
+	[idRegistro] [int]identity(1,1) not null,
+	[idJuego] [int] not null,
+	[Cantidad] [int] not null,
+	[Fecha] [nvarchar](255) not null,
+	[idTienda] [int] not null
+);
+alter table Ventas$
+add constraint pk_venta primary key (idRegistro);
+
+CREATE TABLE [dbo].[Tiendas$](
+	[Tienda ] [nvarchar](255) NULL,
+	[Ubicación] [nvarchar](255) NULL,
+	[horario] [nvarchar](255) NULL,
+	[Cuidad] [nvarchar](255) NULL,
+	[Pais ] [nvarchar](255) NULL,
+	[id_tienda] [int] not null
+);
+
+alter table Tiendas$
+add constraint pk_tienda primary key (id_tienda);
+
+/*Relaciones (Foreign keys)*/
+alter table JuegosMasVendidos$
+add constraint fk_categoria_juego foreign key (idCategoria) references Categoria$(id);
+alter table JuegosMasVendidos$
+add constraint fk_juego_compañia foreign key (idDesarrollador) references Compañias$(idComp);
+
+alter table Ventas$
+add constraint fk_venta_juegos foreign key (idJuego) references JuegosMasVendidos$(id);
+alter table Ventas$
+add constraint fk_venta_tienda foreign key (idTienda) references Tiendas$(id_tienda);

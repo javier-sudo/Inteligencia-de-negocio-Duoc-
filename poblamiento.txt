@@ -1,0 +1,609 @@
+/*Poblamiento categoria*/
+insert into Categoria$ values('Acción','lucha y peleas. Basados en ejercicios de repetición (por ejemplo, pulsar un botón para que el personaje ejecute una acción).',1);
+
+insert into Categoria$ values('Arcade','plataformas, laberintos, aventuras. El usuario debe superar pantallas para seguir jugando. Imponen un ritmo rápido y requieren tiempos de reacción mínimos. Por ejemplo el juego de The last of us ps4 de Sony en la que el usuario desempeña el papel de un superviviente. Tiene que hacer frente a feroces infectados y despiadados bandidos humanos.',2);
+
+insert into Categoria$ values('Deportivo','fútbol, tenis, baloncesto y conducción. Recrean diversos deportes. Requieren habilidad, rapidez y precisión. Como el nba 2k14 ps3 de Sony de baloncesto.',3);
+
+insert into Categoria$ values('Estrategia','aventuras, rol, juegos de guerra…Consisten en trazar una estrategia para superar al contrincante. Exigen concentración, saber administrar recursos, pensar y definir estrategias.',4);
+
+insert into Categoria$ values('Simulación','aviones, simuladores de una situación o instrumentales… Permiten experimentar e investigar el funcionamiento de máquinas, fenómenos, situaciones y asumir el mando.',5);
+
+insert into Categoria$ values('Juegos de mesa','habilidad, preguntas y respuestas…La tecnología informática que sustituye al material tradicional del juego y hasta al adversario.',6);
+
+insert into Categoria$ values('Juegos musicales','juegos que inducen a la interacción del jugador con la música y cuyo objetivo es seguir los patrones de una canción. Como puede ser el caso del juego de la voz para ps3 en el que las la letra de la canción aparecen en pantalla junto a unas barras que nos indican cómo estamos cantando, si nos estamos acercando al tono de la canción y la puntuación que estamos consiguiendo.',7);
+
+/*Poblamiento compañias*/
+insert into Compañias$ values('Rockstar','New york',1998,'juegos',19,1);
+insert into Compañias$ values('Naughty Dog','Santa monica',1984,'juegos',25,2);
+insert into Compañias$ values('Nintendo','Tokio',1978,'juegos y consolas',550,3);
+insert into Compañias$ values('EA','California',1982,'juegos',64,4);
+insert into Compañias$ values('Microsoft','California',1975,'juegos y consolas',247,5);
+
+/*Poblamiento juegos*/
+insert into JuegosMasVendidos$ values('Grand Theft Auto V','Hay dos juegos que se han mantenido en el top 10 durante los 9 meses que van de año y Grand Theft Auto V es uno de ellos. La última entrega de la súper saga deRockstar Games vio la luz en 2013, pero ha recobrado lapopularidad después de que un montón de streamers se lanzaran a jugar a su modoonline compartirsus historias de roleplay a través de Twitch y Youtube. El caso es queRockstar sigue introduciendo actualizaciones que mejoran la experiencia online yclaro, los usuarios no hacen más que crecer. Tanto es así que 7 años despuéstodavía no sabemos cuándo llegará Grand Theft Auto VI.',2013,'Rockstar',19890,'Linio',1,1,1);
+
+insert into JuegosMasVendidos$ values('Mario Kart 8 Deluxe','La otra medalla de oro va para Mario Kart 8 Deluxe. Durante la cuarentena hasido uno de los grandes entretenimientos para jugar con nuestros amigos ofamiliares en la distancia. Lo cierto es que este clasicazo siempre esbienvenido, y no nos extrañaría verlo en el top 10 durante lo que queda de año.De momento y desde su lanzamiento en 2017, este juego exclusivo de NintendoSwitch ha acumulado más de 25 millones de unidades vendida anivel mundial (y subiendo)',2012,'Nintendo',54900,'Linio',2,3,3);
+
+insert into JuegosMasVendidos$ values('Animal Crossing: New Horizons','Si hay que definir a un salvador de la cuarentena este es, sin duda alguna, elnuevo Animal Crossing. Siguiendo conlaexitosa Nintendo Switch, este videojuego de simulación social ha batido récords de ventas<desde que se lanzó en marzo. La verdad es quees un juego muy simpático, de mecánica sencilla, colorida y que te invita arelajarte aunque no quieras. Uno de nuestros must.',2020,'Nintendo',52990,'Linio',3,2,3);
+
+insert into JuegosMasVendidos$ values('Minecraft','Otro juego en el que podemos pasar horas y horas y que se ha colado en el top 10 durante 5 de los 9 meses  de año que llevamos es Minecraft,repartido entre su versión de PS4 y la de Nintendo Switch. El famoso videojuegode construcción nos propone un mundo abierto donde fantasear y crear milhistorias junto con nuestros amigos. El título es uno de los favoritos de losstreamers, que han llegado a crear auténticas películas, como la de los chicosde ',2012,'Microsoft',31990,'Linio',4,2,5);
+
+insert into JuegosMasVendidos$ values('FIFA 2020','Poco que decir de la entrega anual del mítico juego de EA Sports; un año más semantiene dentro de los videojuegos más vendidos y no nos sorprende en absoluto.',2019,'EA',31990,'Linio',5,3,4);
+
+insert into JuegosMasVendidos$ values('Mario Odyssey','La de Mario Bros es una de esas sagas que los jugadores llevan en el fondo de sucorazón, y las ventas lo demuestran. Mario Odyssey se ha mantenido en el top 10durante febrero, julio y agosto. La verdad es que es un juego deplataformas en mundo abierto muy divertido y que nos ofrece milposibilidade',2017,'Nintendo',52990,'Linio',6,2,3);
+
+insert into JuegosMasVendidos$ values('Red Dead Redemption 2','Está claro que este juego se lleva la palma en lo que a PC y PS4 serefiere. Desde 2018 la segunda entrega de Red Dead Redemption ha idoacumulando ventas sin parar. Cuenta con un guión magistral culpable de que lahistoria de Arthur Morgan y sus compis de Dutch Van der Linde nos cautive a más no poder.',2018,'Rockstar',34990,'Linio',7,1,1);
+
+insert into JuegosMasVendidos$ values('The Last of Us Part II','Llegó a nuestras consolas el 19 de junio, pero desde entonces no se ha dejado dehablar de él. La segunda entrega del juego de Sony y Naughty Dog nos trae otramaravillosa historia donde Ellie es la protagonista. La gente de PS4 está desuerte por contar con uno de los mejores titulazos de acción-aventura de ladécada.',2020,'Naughty Dog',51990,'Linio',8,1,2);
+
+insert into JuegosMasVendidos$ values('Ghost of Tsushim','El 17 de julio se lanzó este juegazo de Sony y, desde entonces, no ha parado decrecer. Nos ofrece un mundo abierto donde podremos explorar y vivir milaventuras. La historia trata del último samurái de la isla deTsushima durante la primera invasión mongola de Japón.',2020,'Naughty Dog',54990,'Linio',9,2,2);
+
+/*Poblamiento tiendas*/
+insert into Tiendas$ values('Ripley','Costanera Center','10:00-20:00','Santiago','Chile',1);
+insert into Tiendas$ values('Paris','Estación Central','10:00-20:00','Santiago','Chile',2);
+insert into Tiendas$ values('Weplay','Independencia','10:00-20:00','Santiago','Chile',3);
+insert into Tiendas$ values('Microplay','Los Domínicos','10:00-20:00','Santiago','Chile',4);
+insert into Tiendas$ values('Falabella','Lyon','10:00-20:00','Santiago','Chile',5);
+insert into Tiendas$ values('Falabella','Mall Alto Las Condes','10:00-20:00','Santiago','Chile',6);
+insert into Tiendas$ values('Microplay','Mall Arauco Maipu','10:00-20:00','Santiago','Chile',7);
+insert into Tiendas$ values('Weplay','Mall La Dehesa','10:00-20:00','Santiago','Chile',8);
+insert into Tiendas$ values('Ripley','Auto-Open Kennedy (Av. Pdte. Kennedy 5601, Piso -1 Estac. Las Condes','10:00-20:00','Santiago','Chile',9);
+insert into Tiendas$ values('Paris','Mall Parque Arauco','10:00-20:00','Santiago','Chile',10);
+insert into Tiendas$ values('Falabella','Mall Plaza Egaña ','10:00-20:00','Santiago','Chile',11);
+insert into Tiendas$ values('Ripley','Mall Plaza Norte','10:00-20:00','Santiago','Chile',12);
+insert into Tiendas$ values('Weplay','Mall Plaza Oeste','10:00-20:00','Santiago','Chile',13);
+insert into Tiendas$ values('Microplay','Mall Plaza Vespucio','10:00-20:00','Santiago','Chile',14);
+insert into Tiendas$ values('Falabella','Manquehue','10:00-20:00','Santiago','Chile',15);
+insert into Tiendas$ values('Falabella','Melipilla ','10:00-20:00','Santiago','Chile',16);
+insert into Tiendas$ values('Hites','Open Expo Puente Alto','10:00-20:00','Santiago','Chile',17);
+insert into Tiendas$ values('Hites','Plaza Puente (solo el 165)','10:00-20:00','Santiago','Chile',18);
+insert into Tiendas$ values('Hites','San Bernardo','10:00-20:00','Santiago','Chile',19);
+insert into Tiendas$ values('Falabella','Tobalaba','10:00-20:00','Santiago','Chile',20);
+
+/*Poblamiento ventas*/
+/*The last of us 2*/
+insert into Ventas$ values(1,8,33,'Jun/2020',1);
+insert into Ventas$ values(2,8,26,'Jul/2020',1);
+insert into Ventas$ values(3,8,10,'Ago/2020',1);
+insert into Ventas$ values(4,8,13,'Sep/2020',1);
+insert into Ventas$ values(5,8,20,'Jun/2020',2);
+insert into Ventas$ values(6,8,19,'Jul/2020',2);
+insert into Ventas$ values(7,8,15,'Ago/2020',2);
+insert into Ventas$ values(8,8,11,'Sep/2020',2);
+insert into Ventas$ values(9,8,17,'Jun/2020',3);
+insert into Ventas$ values(10,8,19,'Jul/2020',3);
+insert into Ventas$ values(11,8,12,'Ago/2020',3);
+insert into Ventas$ values(12,8,11,'Sep/2020',3);
+insert into Ventas$ values(13,8,20,'Jun/2020',4);
+insert into Ventas$ values(14,8,19,'Jul/2020',4);
+insert into Ventas$ values(15,8,20,'Ago/2020',4);
+insert into Ventas$ values(16,8,11,'Sep/2020',4);
+insert into Ventas$ values(17,8,15,'Jun/2020',6);
+insert into Ventas$ values(18,8,19,'Jul/2020',6);
+insert into Ventas$ values(19,8,0,'Ago/2020',6);
+insert into Ventas$ values(20,8,11,'Sep/2020',6);
+insert into Ventas$ values(21,8,15,'Jun/2020',5);
+insert into Ventas$ values(22,8,16,'Jul/2020',5);
+insert into Ventas$ values(23,8,20,'Ago/2020',5);
+insert into Ventas$ values(24,8,1,'Sep/2020',5);
+insert into Ventas$ values(25,8,23,'Jun/2020',7);
+insert into Ventas$ values(26,8,16,'Jul/2020',7);
+insert into Ventas$ values(27,8,10,'Ago/2020',7);
+insert into Ventas$ values(28,8,10,'Sep/2020',7);
+insert into Ventas$ values(29,8,13,'Jun/2020',8);
+insert into Ventas$ values(30,8,16,'Jul/2020',8);
+insert into Ventas$ values(31,8,10,'Ago/2020',8);
+insert into Ventas$ values(32,8,10,'Sep/2020',8);
+insert into Ventas$ values(33,8,13,'Jun/2020',9);
+insert into Ventas$ values(34,8,16,'Jul/2020',9);
+insert into Ventas$ values(35,8,0,'Ago/2020',9);
+insert into Ventas$ values(36,8,12,'Sep/2020',9);
+insert into Ventas$ values(37,8,16,'Jun/2020',10);
+insert into Ventas$ values(38,8,11,'Jul/2020',10);
+insert into Ventas$ values(39,8,14,'Ago/2020',10);
+insert into Ventas$ values(40,8,8,'Sep/2020',10);
+insert into Ventas$ values(41,8,7,'Jun/2020',11);
+insert into Ventas$ values(42,8,6,'Jul/2020',11);
+insert into Ventas$ values(42,8,15,'Ago/2020',11);
+insert into Ventas$ values(43,8,12,'Sep/2020',11);
+insert into Ventas$ values(44,8,8,'Jun/2020',12);
+insert into Ventas$ values(45,8,20,'Jul/2020',12);
+insert into Ventas$ values(46,8,7,'Ago/2020',12);
+insert into Ventas$ values(47,8,11,'Sep/2020',12);
+insert into Ventas$ values(48,8,14,'Jun/2020',13);
+insert into Ventas$ values(49,8,9,'Jul/2020',13);
+insert into Ventas$ values(50,8,5,'Ago/2020',13);
+insert into Ventas$ values(51,8,5,'Sep/2020',13);
+insert into Ventas$ values(52,8,33,'Jun/2020',14);
+insert into Ventas$ values(53,8,26,'Jul/2020',14);
+insert into Ventas$ values(54,8,20,'Ago/2020',14);
+insert into Ventas$ values(55,8,10,'Sep/2020',14);
+insert into Ventas$ values(56,8,5,'Jun/2020',15);
+insert into Ventas$ values(57,8,5,'Jul/2020',15);
+insert into Ventas$ values(58,8,5,'Ago/2020',15);
+insert into Ventas$ values(59,8,5,'Sep/2020',15);
+
+/*Ghost of tsushim*/
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values(60,9,22,'Jul/2020',1);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda)values(61,9,13,'Ago/2020',1);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values(62,9,15,'Sep/2020',1);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values(63,9,22,'Jul/2020',4);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda)values( 64,9,23,'Ago/2020',4);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 65,9,15,'Sep/2020',4);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 66,9,12,'Jul/2020',12);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 67,9,23,'Ago/2020',13);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 68,9,15,'Sep/2020',11);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 69,9,20,'Jul/2020',14);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 70,9,23,'Ago/2020',14);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 71,9,15,'Sep/2020',15);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 72,9,15,'Jul/2020',16);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 73,9,23,'Ago/2020',17);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 74,9,15,'Sep/2020',18);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 75,9,22,'Jul/2020'19);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 76,9,23,'Ago/2020',20);
+insert into Ventas$(idRegistro,idJuego,Cantidad,Fecha,idTienda) values( 77,9,15,'Sep/2020',20);
+
+/*Read Dead Redemption 2*/
+insert into Ventas$ values( 78,7,12,'Ene/2019',1);
+insert into Ventas$ values( 79,7,8,'Feb/2019',1);
+insert into Ventas$ values( 80,7,5,'Mar/2019',1);
+insert into Ventas$ values( 81,7,6,'Abr/2019',1);
+insert into Ventas$ values( 82,7,10,'May/2019',1);
+insert into Ventas$ values( 83,7,8,'Jun/2019',1);
+insert into Ventas$ values( 84,7,9,'Jul/2019',1);
+insert into Ventas$ values( 85,7,3,'Ago/2019',1);
+insert into Ventas$ values( 86,7,2,'Sep/2019',1);
+insert into Ventas$ values( 87,7,2,'Oct/2019',1);
+insert into Ventas$ values( 88,7,2,'Nov/2019',1);
+insert into Ventas$ values( 89,7,5,'Dic/2019',1);
+insert into Ventas$ values( 90,7,1,'Ene/2020',1);
+insert into Ventas$ values( 91,7,1,'Feb/2020',1);
+insert into Ventas$ values( 92,7,2,'Mar/2020',1);
+insert into Ventas$ values( 93,7,0,'Abr/2020',1);
+insert into Ventas$ values( 94,7,3,'May/2020',1);
+insert into Ventas$ values( 95,7,4,'Jun/2020',1);
+insert into Ventas$ values( 96,7,6,'Jul/2020',1);
+insert into Ventas$ values( 97,7,0,'Ago/2020',1);
+insert into Ventas$ values( 98,7,1,'Sep/2020',1);
+insert into Ventas$ values( 99,7,12,'Ene/2019',2);
+insert into Ventas$ values( 100,7,8,'Feb/2019',3);
+insert into Ventas$ values( 101,7,5,'Mar/2019',4);
+insert into Ventas$ values( 102,7,6,'Abr/2019',5);
+insert into Ventas$ values( 103,7,10,'May/2019',6);
+insert into Ventas$ values( 104,7,8,'Jun/2019',7);
+insert into Ventas$ values( 105 ,7,9,'Jul/2019',8);
+insert into Ventas$ values( 106 ,7,3,'Ago/2019',9);
+insert into Ventas$ values( 107 ,7,2,'Sep/2019',10);
+insert into Ventas$ values( 108 ,7,2,'Oct/2019',11);
+insert into Ventas$ values( 109 ,7,2,'Nov/2019',12);
+insert into Ventas$ values( 110 ,7,5,'Dic/2019',13);
+insert into Ventas$ values( 111 ,7,1,'Ene/2020',14);
+insert into Ventas$ values( 112 ,7,1,'Feb/2020',15);
+insert into Ventas$ values( 113 ,7,2,'Mar/2020',16);
+insert into Ventas$ values( 114 ,7,0,'Abr/2020',17);
+insert into Ventas$ values( 115 ,7,3,'May/2020',18);
+insert into Ventas$ values( 116 ,7,4,'Jun/2020',19);
+insert into Ventas$ values( 117 ,7,6,'Jul/2020',20);
+insert into Ventas$ values( 118 ,7,0,'Ago/2020',20);
+insert into Ventas$ values( 119 ,7,1,'Sep/2020',19);
+insert into Ventas$ values( 120 ,7,12,'Ene/2019',2);
+insert into Ventas$ values( 121 ,7,8,'Feb/2019',3);
+insert into Ventas$ values( 122 ,7,5,'Mar/2019',4);
+insert into Ventas$ values( 123 ,7,6,'Abr/2019',5);
+insert into Ventas$ values( 124 ,7,10,'May/2019',6);
+insert into Ventas$ values( 125 ,7,8,'Jun/2019',7);
+insert into Ventas$ values( 126 ,7,9,'Jul/2019',8);
+insert into Ventas$ values( 127 ,7,3,'Ago/2019',9);
+insert into Ventas$ values( 128 ,7,2,'Sep/2019',10);
+insert into Ventas$ values( 129 ,7,2,'Oct/2019',11);
+insert into Ventas$ values( 130 ,7,2,'Nov/2019',12);
+insert into Ventas$ values( 131 ,7,5,'Dic/2019',13);
+insert into Ventas$ values( 132 ,7,1,'Ene/2020',14);
+insert into Ventas$ values( 133,7,1,'Feb/2020',15);
+insert into Ventas$ values( 134 ,7,2,'Mar/2020',16);
+insert into Ventas$ values( 135 ,7,0,'Abr/2020',17);
+insert into Ventas$ values( 136 ,7,3,'May/2020',18);
+insert into Ventas$ values( 137 ,7,4,'Jun/2020',19);
+insert into Ventas$ values( 138 ,7,6,'Jul/2020',20);
+insert into Ventas$ values( 139 ,7,0,'Ago/2020',20);
+insert into Ventas$ values( 140 ,7,1,'Sep/2020',19);
+insert into Ventas$ values( 141 ,7,8,'Feb/2019',3);
+insert into Ventas$ values( 142 ,7,5,'Mar/2019',4);
+insert into Ventas$ values( 143 ,7,6,'Abr/2019',5);
+insert into Ventas$ values( 144 ,7,10,'May/2019',6);
+insert into Ventas$ values( 145 ,7,8,'Jun/2019',7);
+insert into Ventas$ values( 146 ,7,9,'Jul/2019',8);
+insert into Ventas$ values( 147,7,3,'Ago/2019',9);
+insert into Ventas$ values( 148 ,7,2,'Sep/2019',10);
+insert into Ventas$ values( 149 ,7,2,'Oct/2019',11);
+insert into Ventas$ values( 150 ,7,2,'Nov/2019',12);
+insert into Ventas$ values( 151 ,7,5,'Dic/2019',13);
+insert into Ventas$ values( 152 ,7,1,'Ene/2020',14);
+insert into Ventas$ values( 153 ,7,1,'Feb/2020',15);
+insert into Ventas$ values( 154 ,7,2,'Mar/2020',16);
+insert into Ventas$ values( 155 ,7,0,'Abr/2020',17);
+insert into Ventas$ values( 156 ,7,3,'May/2020',18);
+insert into Ventas$ values( 157 ,7,4,'Jun/2020',19);
+insert into Ventas$ values( 158 ,7,6,'Jul/2020',20);
+insert into Ventas$ values( 159 ,7,0,'Ago/2020',20);
+insert into Ventas$ values( 160 ,7,1,'Sep/2020',19);
+insert into Ventas$ values( 161 ,7,8,'Feb/2019',13);
+insert into Ventas$ values( 162 ,7,5,'Mar/2019',14);
+insert into Ventas$ values( 163 ,7,6,'Abr/2019',15);
+insert into Ventas$ values( 164 ,7,10,'May/2019',16);
+insert into Ventas$ values( 165 ,7,8,'Jun/2019',17);
+insert into Ventas$ values( 166 ,7,9,'Jul/2019',18);
+insert into Ventas$ values( 167 ,7,3,'Ago/2019',19);
+insert into Ventas$ values( 168 ,7,2,'Sep/2019',2);
+insert into Ventas$ values( 169 ,7,2,'Oct/2019',11);
+insert into Ventas$ values( 170 ,7,2,'Nov/2019',12);
+insert into Ventas$ values( 171 ,7,5,'Dic/2019',13);
+insert into Ventas$ values( 172 ,7,1,'Ene/2020',4);
+insert into Ventas$ values( 173 ,7,1,'Feb/2020',5);
+insert into Ventas$ values( 174 ,7,2,'Mar/2020',6);
+insert into Ventas$ values( 175 ,7,0,'Abr/2020',7);
+insert into Ventas$ values( 176 ,7,3,'May/2020',8);
+insert into Ventas$ values( 177 ,7,4,'Jun/2020',9);
+insert into Ventas$ values( 178 ,7,6,'Jul/2020',2);
+insert into Ventas$ values( 179 ,7,0,'Ago/2020',20);
+insert into Ventas$ values( 180 ,7,1,'Sep/2020',19);
+
+/*GTA V*/
+insert into Ventas$ values( 181 ,1,12,'Ene/2019',1);
+insert into Ventas$ values( 182 ,1,8,'Feb/2019',1);
+insert into Ventas$ values( 183 ,1,5,'Mar/2019',1);
+insert into Ventas$ values( 184 ,1,6,'Abr/2019',1);
+insert into Ventas$ values( 185 ,1,10,'May/2019',1);
+insert into Ventas$ values( 186 ,1,8,'Jun/2019',1);
+insert into Ventas$ values( 187 ,1,9,'Jul/2019',1);
+insert into Ventas$ values( 188 ,1,3,'Ago/2019',1);
+insert into Ventas$ values( 189 ,1,2,'Sep/2019',1);
+insert into Ventas$ values( 190 ,1,2,'Oct/2019',1);
+insert into Ventas$ values( 191 ,1,2,'Nov/2019',1);
+insert into Ventas$ values( 192 ,1,5,'Dic/2019',1);
+insert into Ventas$ values( 193 ,1,1,'Ene/2020',1);
+insert into Ventas$ values( 194 ,1,1,'Feb/2020',1);
+insert into Ventas$ values( 195 ,1,2,'Mar/2020',1);
+insert into Ventas$ values( 196 ,1,0,'Abr/2020',1);
+insert into Ventas$ values( 197 ,1,3,'May/2020',1);
+insert into Ventas$ values( 198 ,1,4,'Jun/2020',1);
+insert into Ventas$ values( 199 ,1,6,'Jul/2020',1);
+insert into Ventas$ values( 200 ,1,0,'Ago/2020',1);
+insert into Ventas$ values( 201 ,1,1,'Sep/2020',1);
+insert into Ventas$ values( 202 ,1,12,'Ene/2019',2);
+insert into Ventas$ values( 203 ,1,8,'Feb/2019',3);
+insert into Ventas$ values( 204 ,1,5,'Mar/2019',4);
+insert into Ventas$ values( 205 ,1,6,'Abr/2019',5);
+insert into Ventas$ values( 206 ,1,10,'May/2019',6);
+insert into Ventas$ values( 207 ,1,8,'Jun/2019',7);
+insert into Ventas$ values( 208 ,1,9,'Jul/2019',8);
+insert into Ventas$ values( 209 ,1,3,'Ago/2019',9);
+insert into Ventas$ values( 210 ,1,2,'Sep/2019',10);
+insert into Ventas$ values( 211 ,1,2,'Oct/2019',11);
+insert into Ventas$ values( 212 ,1,2,'Nov/2019',12);
+insert into Ventas$ values( 213 ,1,5,'Dic/2019',13);
+insert into Ventas$ values( 214 ,1,1,'Ene/2020',14);
+insert into Ventas$ values( 215 ,1,1,'Feb/2020',15);
+insert into Ventas$ values( 216 ,1,2,'Mar/2020',16);
+insert into Ventas$ values( 217 ,1,0,'Abr/2020',17);
+insert into Ventas$ values( 218 ,1,3,'May/2020',18);
+insert into Ventas$ values( 219 ,1,4,'Jun/2020',19);
+insert into Ventas$ values( 220 ,1,6,'Jul/2020',20);
+insert into Ventas$ values( 221 ,1,0,'Ago/2020',20);
+insert into Ventas$ values( 222 ,1,1,'Sep/2020',19);
+insert into Ventas$ values( 223 ,1,12,'Ene/2019',2);
+insert into Ventas$ values( 224 ,1,8,'Feb/2019',3);
+insert into Ventas$ values( 225 ,1,5,'Mar/2019',4);
+insert into Ventas$ values( 226 ,1,6,'Abr/2019',5);
+insert into Ventas$ values( 227 ,1,10,'May/2019',6);
+insert into Ventas$ values( 228 ,1,8,'Jun/2019',7);
+insert into Ventas$ values( 229 ,1,9,'Jul/2019',8);
+insert into Ventas$ values( 230 ,1,3,'Ago/2019',9);
+insert into Ventas$ values( 231 ,1,2,'Sep/2019',10);
+insert into Ventas$ values( 232 ,1,2,'Oct/2019',11);
+insert into Ventas$ values( 233 ,1,2,'Nov/2019',12);
+insert into Ventas$ values( 234 ,1,5,'Dic/2019',13);
+insert into Ventas$ values( 235 ,1,1,'Ene/2020',14);
+insert into Ventas$ values( 236 ,1,1,'Feb/2020',15);
+insert into Ventas$ values( 237 ,1,2,'Mar/2020',16);
+insert into Ventas$ values( 238 ,1,0,'Abr/2020',17);
+insert into Ventas$ values( 239 ,1,3,'May/2020',18);
+insert into Ventas$ values( 240 ,1,4,'Jun/2020',19);
+insert into Ventas$ values( 241 ,1,6,'Jul/2020',20);
+insert into Ventas$ values( 242 ,1,0,'Ago/2020',20);
+insert into Ventas$ values( 243 ,1,1,'Sep/2020',19);
+insert into Ventas$ values( 244 ,1,8,'Feb/2019',3);
+insert into Ventas$ values( 245 ,1,5,'Mar/2019',4);
+insert into Ventas$ values( 246 ,1,6,'Abr/2019',5);
+insert into Ventas$ values( 247 ,1,10,'May/2019',6);
+insert into Ventas$ values( 248 ,1,8,'Jun/2019',7);
+insert into Ventas$ values( 249 ,1,9,'Jul/2019',8);
+insert into Ventas$ values( 250 ,1,3,'Ago/2019',9);
+insert into Ventas$ values( 251 ,1,2,'Sep/2019',10);
+insert into Ventas$ values( 252 ,1,2,'Oct/2019',11);
+insert into Ventas$ values( 253 ,1,2,'Nov/2019',12);
+insert into Ventas$ values( 254 ,1,5,'Dic/2019',13);
+insert into Ventas$ values( 255 ,1,1,'Ene/2020',14);
+insert into Ventas$ values( 256 ,1,1,'Feb/2020',15);
+insert into Ventas$ values( 257 ,1,2,'Mar/2020',16);
+insert into Ventas$ values( 258 ,1,0,'Abr/2020',17);
+insert into Ventas$ values( 259 ,1,3,'May/2020',18);
+insert into Ventas$ values( 260 ,1,4,'Jun/2020',19);
+insert into Ventas$ values( 261 ,1,6,'Jul/2020',20);
+insert into Ventas$ values( 262 ,1,0,'Ago/2020',20);
+insert into Ventas$ values( 263 ,1,1,'Sep/2020',19);
+insert into Ventas$ values( 264 ,1,8,'Feb/2019',13);
+insert into Ventas$ values( 265 ,1,5,'Mar/2019',14);
+insert into Ventas$ values( 266 ,1,6,'Abr/2019',15);
+insert into Ventas$ values( 267 ,1,10,'May/2019',16);
+insert into Ventas$ values( 268 ,1,8,'Jun/2019',17);
+insert into Ventas$ values( 269 ,1,9,'Jul/2019',18);
+insert into Ventas$ values( 270 ,1,13,'Ago/2019',19);
+insert into Ventas$ values( 271 ,1,2,'Sep/2019',2);
+insert into Ventas$ values( 272 ,1,2,'Oct/2019',11);
+insert into Ventas$ values( 273 , 1,2,'Nov/2019',12);
+insert into Ventas$ values( 274 ,1,15,'Dic/2019',13);
+insert into Ventas$ values( 275 ,1,0,'Ene/2020',4);
+insert into Ventas$ values( 276 ,1,1,'Feb/2020',5);
+insert into Ventas$ values( 277 ,1,2,'Mar/2020',6);
+insert into Ventas$ values( 278 ,1,0,'Abr/2020',7);
+insert into Ventas$ values( 279 ,1,3,'May/2020',8);
+insert into Ventas$ values( 280 ,1,4,'Jun/2020',9);
+insert into Ventas$ values( 281 ,1,6,'Jul/2020',2);
+insert into Ventas$ values( 282 ,1,0,'Ago/2020',20);
+insert into Ventas$ values( 283 ,1,0,'Sep/2020',19);
+
+/*Animal crossing*/
+insert into Ventas$ values( 284,3,15,'Mar/2020',1);
+insert into Ventas$ values( 285 ,3,8,'Abr/2020',1);
+insert into Ventas$ values( 286 ,3,10,'May/2020',1);
+insert into Ventas$ values( 287 ,3,7,'Jun/2020',1);
+insert into Ventas$ values( 288 ,3,5,'Jul/2020',1);
+insert into Ventas$ values( 289 ,3,5,'Ago/2020',1);
+insert into Ventas$ values( 290 ,3,7,'Sep/2020',1);
+
+insert into Ventas$ values( 291,3,12,'Mar/2020',2);
+insert into Ventas$ values( 292 ,3,3,'Abr/2020',2);
+insert into Ventas$ values( 293 ,3,1,'May/2020',2);
+insert into Ventas$ values( 294 ,3,3,'Jun/2020',2);
+insert into Ventas$ values( 295 ,3,3,'Jul/2020',2);
+insert into Ventas$ values( 296 ,3,4,'Ago/2020',2);
+insert into Ventas$ values( 297 ,3,2,'Sep/2020',2); 
+
+insert into Ventas$ values( 298 ,3,5,'Mar/2020',3);
+insert into Ventas$ values( 299 ,3,8,'Abr/2020',3);
+insert into Ventas$ values( 300 ,3,0,'May/2020',3);
+insert into Ventas$ values( 301 ,3,5,'Jun/2020',3);
+insert into Ventas$ values( 302 ,3,3,'Jul/2020',3);
+insert into Ventas$ values( 303 ,3,2,'Ago/2020',3);
+insert into Ventas$ values( 304 ,3,4,'Sep/2020',3);
+insert into Ventas$ values( 305 ,3,10,'Mar/2020',4);
+insert into Ventas$ values( 306 ,3,5,'Abr/2020',4);
+insert into Ventas$ values( 307 ,3,1,'May/2020',4);
+insert into Ventas$ values( 308 ,3,7,'Jun/2020',4);
+insert into Ventas$ values( 309 ,3,3,'Jul/2020',4);
+insert into Ventas$ values( 310 ,3,3,'Ago/2020',4);
+insert into Ventas$ values( 311 ,3,2,'Sep/2020',4);
+insert into Ventas$ values( 312 ,3,10,'Mar/2020',5);
+insert into Ventas$ values( 313 ,3,5,'Abr/2020',5);
+insert into Ventas$ values( 314 ,3,1,'May/2020',5);
+insert into Ventas$ values( 315 ,3,7,'Jun/2020',5);
+insert into Ventas$ values( 316 ,3,3,'Jul/2020',5);
+insert into Ventas$ values( 317 ,3,3,'Ago/2020',5);
+insert into Ventas$ values( 318 ,3,2,'Sep/2020',5);
+insert into Ventas$ values( 319 ,3,10,'Mar/2020',6);
+insert into Ventas$ values( 320 , 3,5,'Abr/2020',6);
+insert into Ventas$ values( 321 ,3,1,'May/2020',6);
+insert into Ventas$ values( 322 ,3,7,'Jun/2020',6);
+insert into Ventas$ values( 323 ,3,3,'Jul/2020',6);
+insert into Ventas$ values( 324,3,3,'Ago/2020',6);
+insert into Ventas$ values( 325 ,3,2,'Sep/2020',6);
+insert into Ventas$ values( 326 ,3,10,'Mar/2020',7);
+insert into Ventas$ values( 327 ,3,5,'Abr/2020',7);
+insert into Ventas$ values( 328 ,3,1,'May/2020',7);
+insert into Ventas$ values( 329 ,3,7,'Jun/2020',7);
+insert into Ventas$ values( 330 ,3,3,'Jul/2020',7);
+insert into Ventas$ values( 331 ,3,3,'Ago/2020',7);
+insert into Ventas$ values( 332 ,3,2,'Sep/2020',7);
+insert into Ventas$ values( 333 ,3,10,'Mar/2020',14);
+insert into Ventas$ values( 334 , 3,5,'Abr/2020',14);
+insert into Ventas$ values( 335 ,3,1,'May/2020',14);
+insert into Ventas$ values( 336 ,3,7,'Jun/2020',14);
+insert into Ventas$ values( 337 ,3,3,'Jul/2020',14);
+insert into Ventas$ values( 338 ,3,3,'Ago/2020',14);
+insert into Ventas$ values( 339 ,3,2,'Sep/2020',14);
+insert into Ventas$ values( 340 ,3,10,'Mar/2020',8);
+insert into Ventas$ values( 341 ,3,5,'Abr/2020',8);
+insert into Ventas$ values( 342 ,3,1,'May/2020',8);
+insert into Ventas$ values( 343 ,3,7,'Jun/2020',8);
+insert into Ventas$ values( 344 ,3,3,'Jul/2020',8);
+insert into Ventas$ values( 345 ,3,3,'Ago/2020',8);
+insert into Ventas$ values( 346 ,3,2,'Sep/2020',8);
+
+set identity_insert Ventas$ on
+
+/*Mario kart 8 deluxe*/
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (347,2,8,'Ene/2019',1);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (348,2,7,'Feb/2019',1);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (349,2,12,'Mar/2019',1);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (350,2,3,'Abr/2019',1);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (351,2,6,'May/2019',1);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (352,2,5,'Jun/2019',1);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (353,2,4,'Jul/2019',1);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (354,2,2,'Ago/2019',1);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (355,2,2,'Sep/2019',1);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (356,2,1,'Oct/2019',1);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (357,2,5,'Nov/2019',1);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (358,2,13,'Dic/2019',1);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (359,2,5,'Ene/2019',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (360,2,5,'Feb/2019',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (361,2,1,'Mar/2019',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (362,2,3,'Abr/2019',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (363,2,4,'May/2019',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (364,2,1,'Jun/2019',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (365,2,4,'Jul/2019',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (366,2,2,'Ago/2019',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (367,2,2,'Sep/2019',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (368,2,1,'Oct/2019',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (369,2,3,'Nov/2019',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (370,2,9,'Dic/2019',3);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (371,2,6,'Ene/2019',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (372,2,5,'Feb/2019',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (373,2,1,'Mar/2019',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (374,2,3,'Abr/2019',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (375,2,5,'May/2019',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (376,2,1,'Jun/2019',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (377,2,3,'Jul/2019',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (378,2,2,'Ago/2019',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (379,2,1,'Sep/2019',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (380,2,1,'Oct/2019',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (381,2,3,'Nov/2019',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (382,2,10,'Dic/2019',4);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (383,2,6,'Ene/2019',5);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (384,2,5,'Feb/2019',5);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (385,2,1,'Mar/2019',5);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (386,2,3,'Abr/2019',5);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (387,2,5,'May/2019',5);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (388,2,1,'Jun/2019',5);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (389,2,3,'Jul/2019',5);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (390,2,2,'Ago/2019',5);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (391,2,1,'Sep/2019',5);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (392,2,1,'Oct/2019',5);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (393,2,3,'Nov/2019',5);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (394,2,10,'Dic/2019',5);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (395,2,6,'Ene/2020',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (396,2,5,'Feb/2020',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (397,2,1,'Mar/2020',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (398,2,3,'Abr/2020',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (399,2,5,'May/2020',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (400,2,1,'Jun/2020',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (401,2,3,'Jul/2020',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (402,2,3,'Ago/2020',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (403,2,1,'Sep/2020',3);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (404,2,7,'Ene/2020',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (405,2,5,'Feb/2020',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (406,2,3,'Mar/2020',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (407,2,3,'Abr/2020',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (408,2,5,'May/2020',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (409,2,2,'Jun/2020',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (410,2,3,'Jul/2020',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (411,2,6,'Ago/2020',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (412,2,1,'Sep/2020',4);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (413,2,5,'Ene/2020',2);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (414,2,4,'Feb/2020',2);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (415,2,4,'Mar/2020',2);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (416,2,3,'Abr/2020',2);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (417,2,3,'May/2020',2);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (418,2,3,'Jun/2020',2);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (419,2,3,'Jul/2020',2);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (420,2,4,'Ago/2020',2);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (421,2,1,'Sep/2020',2);
+
+/*FIFA 2020 = 5*/
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (422,5,20,'Sep/2019',1);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (423,5,8,'Oct/2019',1);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (424,5,5,'Nov/2019',1);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (425,5,13,'Dic/2019',1);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (426,5,16,'Sep/2019',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (427,5,5,'Oct/2019',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (428,5,3,'Nov/2019',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (429,5,9,'Dic/2019',3);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (430,5,14,'Sep/2019',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (431,5,4,'Oct/2019',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (432,5,8,'Nov/2019',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (433,5,10,'Dic/2019',4);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (434,5,15,'Sep/2019',5);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (435,5,5,'Oct/2019',5);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (436,5,6,'Nov/2019',5);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (437,5,10,'Dic/2019',5);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (438,5,6,'Ene/2020',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (439,5,5,'Feb/2020',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (440,5,1,'Mar/2020',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (441,5,3,'Abr/2020',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (442,5,5,'May/2020',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (443,5,9,'Jun/2020',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (444,5,3,'Jul/2020',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (445,5,5,'Ago/2020',3);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (446,5,3,'Sep/2020',3);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (447,5,7,'Ene/2020',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (448,5,5,'Feb/2020',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (449,5,3,'Mar/2020',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (450,5,3,'Abr/2020',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (451,5,5,'May/2020',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (452,5,2,'Jun/2020',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (453,5,3,'Jul/2020',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (454,5,6,'Ago/2020',4);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (455,5,1,'Sep/2020',4);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (456,5,5,'Ene/2020',2);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (457,5,4,'Feb/2020',2);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (458,5,4,'Mar/2020',2);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (459,5,3,'Abr/2020',2);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (460,5,3,'May/2020',2);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (461,5,3,'Jun/2020',2);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (462,5,3,'Jul/2020',2);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (463,5,4,'Ago/2020',2);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (464,5,1,'Sep/2020',2);
+
+set identity_insert Ventas$ on
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (465,5,17,'Sep/2019',11);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (466,5,8,'Oct/2019',11);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (467,5,5,'Nov/2019',11);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (468,5,15,'Dic/2019',11);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (469,5,13,'Sep/2019',13);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (470,5,5,'Oct/2019',13);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (471,5,3,'Nov/2019',13);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (472,5,9,'Dic/2019',13);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (473,5,10,'Sep/2019',14);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (474,5,4,'Oct/2019',14);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (475,5,8,'Nov/2019',14);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (476,5,10,'Dic/2019',14);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (477,5,12,'Sep/2019',15);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (478,5,5,'Oct/2019',15);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (479,5,6,'Nov/2019',15);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (480,5,8,'Dic/2019',15);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (481,5,6,'Ene/2020',8);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (482,5,5,'Feb/2020',8);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (483,5,1,'Mar/2020',8);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (484,5,5,'Abr/2020',8);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (485,5,5,'May/2020',8);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (486,5,9,'Jun/2020',8);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (487,5,3,'Jul/2020',8);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (488,5,5,'Ago/2020',8);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (489,5,3,'Sep/2020',8);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (490,5,7,'Ene/2020',7);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (491,5,5,'Feb/2020',7);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (492,5,3,'Mar/2020',7);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (493,5,3,'Abr/2020',7);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (494,5,5,'May/2020',7);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (495,5,5,'Jun/2020',7);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (496,5,3,'Jul/2020',7);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (497,5,6,'Ago/2020',7);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (498,5,1,'Sep/2020',7);
+
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (499,5,5,'Ene/2020',6);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (500,5,4,'Feb/2020',6);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (501,5,4,'Mar/2020',6);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (502,5,3,'Abr/2020',6);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (503,5,3,'May/2020',6);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (504,5,3,'Jun/2020',6);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (505,5,3,'Jul/2020',6);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (506,5,4,'Ago/2020',6);
+insert into Ventas$ (idRegistro,idJuego,Cantidad,Fecha,idTienda) values (507,5,4,'Sep/2020',6);
